@@ -1,0 +1,205 @@
+* {
+    border:0;
+    margin:0;
+    padding:0;
+}
+body{
+    background: #E9E9E3;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.container-menu{
+    margin: 120px 56px 120px 56px;
+    column-count: 2;
+    column-gap: 106px
+}
+
+p{
+    font-family: 'Inter';
+    font-style: normal;
+
+    font-size: 32px;
+    line-height: 45px;
+    color: #6F6F64;
+}
+.menu-nav{
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-size: 18px;
+    text-decoration: none;
+    color: #6F6F64;
+}
+.menu-nav img {
+    width: 100%;
+}
+button{
+    font-family: 'Inter';
+    width: 100%;
+    height: 58px;
+    color: #6F6F64;
+    border: 2px solid #6F6F64;
+    margin-bottom: 12px;
+}
+.active{
+    background: #6F6F64;
+    border: 2px solid #6F6F64;
+    color: #FFFFFF;
+}
+.button-container{
+    margin-top: 74px;
+}
+.container-header{
+    background: #4A2B33;
+    height: 800px;
+    width: 100%;
+}
+.container-header img{
+    display: block;
+    height: 644px;
+    width: calc(100% - 112px);
+    margin: 0 auto;
+    overflow: hidden;
+}
+.header-nav{
+    position: relative;
+    height: 120px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #D27487;
+}
+.header-nav nav {
+    margin-left: 56px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%)
+}
+.header-nav nav a{
+    margin-right: 20px;
+}
+.about{
+
+    text-align: center;
+    padding: 220px 285px 220px 285px;
+}
+.about h1 {
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-size: 17px;
+    line-height: 22px;
+    color: #222222;
+}
+.about p{
+    color: #222222;
+}
+.timetable{
+    background: #AA9E54;
+    height: 373px;
+    width: 100%;
+    display: table;
+    padding-top: 120px;
+    text-align: center;
+    column-gap: 50px;
+}
+.timetable div{
+    display: table-cell;
+    width: 30%;
+    padding: 0 56px 0 56px;
+}
+.timetable h2{
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.timetable p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 25px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+}
+.gallery-container{
+    padding:152px 56px 120px 56px;
+    column-count: 2;
+    column-gap:40px;
+}
+.gallery-column1 img{
+    margin-bottom: 40px;
+    height: 300px !important;
+}
+.gallery-container img{
+    width: 100%;
+    height: 640px;
+}
+.award-container{
+    background: #4A2B33;
+    padding: 121px 56px 109px 133px;
+}
+.award-content{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #D27487;
+    column-count: 1;
+    margin-right: 109px;
+
+}
+.award-label{
+    width: 40%;
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-size: 47px;
+    line-height: 62px;
+    letter-spacing: 1px;
+    color: #D27487;
+    float: left;
+    margin-right: 200px;
+}
+footer{
+    padding: 56px 430px 39px 430px;
+    text-align: center;
+}
+footer nav{
+    margin-bottom: 19px;
+}
+footer nav a{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    margin-right: 25px;
+    color: #1F1F1F;
+}
+footer a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #696969;
+    margin-right: 20px ;
+}
+.logo{
+    position: relative;
+    right: -40%;
+    top: 35%;
+}
+.header-nav img{
+    display: inline-block;
+    width: 25px;
+    height: 30px;
+}
+.icon{
+    position: relative;
+    right: 4%;
+}
+.icon img{
+    margin-left: 16px;
+}
